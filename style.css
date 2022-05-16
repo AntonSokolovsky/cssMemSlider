@@ -14,6 +14,7 @@ ul {
 }
 .container {
     max-width: 1280px;
+    width: 40em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -149,12 +150,30 @@ ul {
     color: #000000;
     background-color: #BDAE82;
 }
-
+/* for mobile  */
 @media(max-width:640px) {
     .container {
         max-width: 640px;
     }
     .slider {
         width: 50em;
+        height: 50em;
+    }
+    .mem-text {
+        margin: 0;
+        font-size: 2.8em;
+    }
+    .slider-container {
+        gap: 2em;
+    }
+    .control {
+        margin: 0;
+        gap: 2em;
+    }
+    .label {
+        width: 6em;
+        height: 6em;
+        border-radius: 6em;
+        padding: 2em;
     }
 }
